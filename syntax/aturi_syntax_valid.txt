@@ -22,14 +22,14 @@ at://did:plc:asdf123/com.atproto.feed.post/asdf123
 at://did:plc:asdf123/com.atproto.feed.post/a
 
 at://did:plc:asdf123/com.atproto.feed.post/asdf-123
-at://did:abc:123
-at://did:abc:123/io.nsid.someFunc/record-key
+at://did:web:example.com
+at://did:web:example.com/io.nsid.someFunc/record-key
 
-at://did:abc:123/io.nsid.someFunc/self.
-at://did:abc:123/io.nsid.someFunc/lang:
-at://did:abc:123/io.nsid.someFunc/:
-at://did:abc:123/io.nsid.someFunc/-
-at://did:abc:123/io.nsid.someFunc/_
-at://did:abc:123/io.nsid.someFunc/~
-at://did:abc:123/io.nsid.someFunc/...
+at://did:web:example.com/io.nsid.someFunc/self.
+at://did:web:example.com/io.nsid.someFunc/lang:
+at://did:web:example.com/io.nsid.someFunc/:
+at://did:web:example.com/io.nsid.someFunc/-
+at://did:web:example.com/io.nsid.someFunc/_
+at://did:web:example.com/io.nsid.someFunc/~
+at://did:web:example.com/io.nsid.someFunc/...
 at://did:plc:asdf123/com.atproto.feed.postV2
