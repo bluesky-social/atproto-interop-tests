@@ -35,11 +35,7 @@
         "a": "alphabet",
         "b": 3
       },
-      "array": [
-        1,
-        2,
-        3
-      ],
+      "array": [1, 2, 3],
       "object": {
         "a": 1,
         "b": 2
@@ -73,11 +69,7 @@
       "sizeBytes": {
         "$bytes": "asdfasdfasdfasdf"
       },
-      "lenArray": [
-        1,
-        2,
-        3
-      ],
+      "lenArray": [1, 2, 3],
       "sizeBlob": {
         "$type": "blob",
         "mimeType": "text/plain",

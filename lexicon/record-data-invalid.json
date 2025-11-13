@@ -128,10 +128,7 @@
     "data": {
       "$type": "example.lexicon.record",
       "integer": 1,
-      "array": [
-        true,
-        false
-      ]
+      "array": [true, false]
     }
   },
   {
@@ -393,9 +390,7 @@
     "data": {
       "$type": "example.lexicon.record",
       "integer": 1,
-      "lenArray": [
-        0
-      ]
+      "lenArray": [0]
     }
   },
   {
@@ -404,18 +399,7 @@
     "data": {
       "$type": "example.lexicon.record",
       "integer": 1,
-      "lenArray": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
+      "lenArray": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     }
   },
   {

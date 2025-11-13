@@ -9,12 +9,8 @@
       "key": "literal:demo",
       "description": "a record type with many field",
       "record": {
-        "required": [
-          "integer"
-        ],
-        "nullable": [
-          "nullableString"
-        ],
+        "required": ["integer"],
+        "nullable": ["nullableString"],
         "properties": {
           "null": {
             "type": "null",
@@ -97,12 +93,7 @@
           },
           "enumInteger": {
             "type": "integer",
-            "enum": [
-              4,
-              9,
-              16,
-              25
-            ]
+            "enum": [4, 9, 16, 25]
           },
           "rangeInteger": {
             "type": "integer",
@@ -121,19 +112,11 @@
           },
           "enumString": {
             "type": "string",
-            "enum": [
-              "fish",
-              "tree",
-              "rock"
-            ]
+            "enum": ["fish", "tree", "rock"]
           },
           "knownString": {
             "type": "string",
-            "knownValues": [
-              "blue",
-              "green",
-              "red"
-            ]
+            "knownValues": ["blue", "green", "red"]
           },
           "sizeBytes": {
             "type": "bytes",
@@ -154,15 +137,11 @@
           },
           "acceptBlob": {
             "type": "blob",
-            "accept": [
-              "image/*"
-            ]
+            "accept": ["image/*"]
           },
           "closedUnion": {
             "type": "union",
-            "refs": [
-              "example.lexicon.record#demoObject"
-            ],
+            "refs": ["example.lexicon.record#demoObject"],
             "closed": true
           }
         }

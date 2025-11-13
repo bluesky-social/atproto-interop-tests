@@ -1,24 +1,24 @@
 [
   {
-	"json": {	
-      	"string": "abc",
-      	"unicode": "a~öñ©⽘☎𓋓😀👨‍👩‍👧‍👧",
-      	"integer": 123,
-      	"bool": true,
-      	"null": null,
-      	"array": ["abc", "def", "ghi"],
-      	"object": {
-        	"string": "abc",
-        	"number": 123,
-        	"bool": true,
-        	"arr": ["abc", "def", "ghi"]
-      	}
+    "json": {
+      "string": "abc",
+      "unicode": "a~öñ©⽘☎𓋓😀👨‍👩‍👧‍👧",
+      "integer": 123,
+      "bool": true,
+      "null": null,
+      "array": ["abc", "def", "ghi"],
+      "object": {
+        "string": "abc",
+        "number": 123,
+        "bool": true,
+        "arr": ["abc", "def", "ghi"]
+      }
     },
     "cbor_base64": "p2Rib29s9WRudWxs9mVhcnJheYNjYWJjY2RlZmNnaGlmb2JqZWN0pGNhcnKDY2FiY2NkZWZjZ2hpZGJvb2z1Zm51bWJlchh7ZnN0cmluZ2NhYmNmc3RyaW5nY2FiY2dpbnRlZ2VyGHtndW5pY29kZXgvYX7DtsOxwqnivZjimI7wk4uT8J+YgPCfkajigI3wn5Gp4oCN8J+Rp+KAjfCfkac",
     "cid": "bafyreiclp443lavogvhj3d2ob2cxbfuscni2k5jk7bebjzg7khl3esabwq"
   },
   {
-	"json": {
+    "json": {
       "a": {
         "$link": "bafyreidfayvfuwqa7qlnopdjiqrxzs6blmoeu4rujcjtnci5beludirz2a"
       },
@@ -28,7 +28,7 @@
       "c": {
         "$type": "blob",
         "ref": {
-        	"$link": "bafkreiccldh766hwcnuxnf2wh6jgzepf2nlu2lvcllt63eww5p6chi4ity"
+          "$link": "bafkreiccldh766hwcnuxnf2wh6jgzepf2nlu2lvcllt63eww5p6chi4ity"
         },
         "mimeType": "image/jpeg",
         "size": 10000
@@ -38,13 +38,17 @@
     "cid": "bafyreihldkhcwijkde7gx4rpkkuw7pl6lbyu5gieunyc7ihactn5bkd2nm"
   },
   {
-    "json":	{
+    "json": {
       "a": {
         "b": [
           {
             "d": [
-              {"$link": "bafyreidfayvfuwqa7qlnopdjiqrxzs6blmoeu4rujcjtnci5beludirz2a"},
-              {"$link": "bafyreidfayvfuwqa7qlnopdjiqrxzs6blmoeu4rujcjtnci5beludirz2a"}
+              {
+                "$link": "bafyreidfayvfuwqa7qlnopdjiqrxzs6blmoeu4rujcjtnci5beludirz2a"
+              },
+              {
+                "$link": "bafyreidfayvfuwqa7qlnopdjiqrxzs6blmoeu4rujcjtnci5beludirz2a"
+              }
             ],
             "e": [
               { "$bytes": "nFERjvLLiw9qm45JrqH9QTzyC2Lu1Xb4ne6+sBrCzI0" },
@@ -54,7 +58,7 @@
         ]
       }
     },
-  	"cbor_base64": "oWFhoWFigaJhZILYKlglAAFxEiBlBipaWgD8Ftc8aUQjfMvBWxxKcjRIkzaJHQkXQaI50NgqWCUAAXESIGUGKlpaAPwW1zxpRCN8y8FbHEpyNEiTNokdCRdBojnQYWWCWCCcURGO8suLD2qbjkmuof1BPPILYu7Vdvid7r6wGsLMjVggiE+sPoHobU9tSIqGI+309LLCcWQIRmEXwxcoDt19tas",
-  	"cid": "bafyreid3imdulnhgeytpf6uk7zahjvrsqlofkmm5b5ub2maw4kqus6jp4i"
+    "cbor_base64": "oWFhoWFigaJhZILYKlglAAFxEiBlBipaWgD8Ftc8aUQjfMvBWxxKcjRIkzaJHQkXQaI50NgqWCUAAXESIGUGKlpaAPwW1zxpRCN8y8FbHEpyNEiTNokdCRdBojnQYWWCWCCcURGO8suLD2qbjkmuof1BPPILYu7Vdvid7r6wGsLMjVggiE+sPoHobU9tSIqGI+309LLCcWQIRmEXwxcoDt19tas",
+    "cid": "bafyreid3imdulnhgeytpf6uk7zahjvrsqlofkmm5b5ub2maw4kqus6jp4i"
   }
 ]
