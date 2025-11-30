@@ -1,21 +1,21 @@
 {
   "lexicon": 1,
   "id": "example.lexicon.record",
-  "revision": 1,
-  "description": "exersizes many lexicon features for the record type",
+  "description": "demonstrates lexicon features for the record type",
   "defs": {
     "main": {
       "type": "record",
       "key": "literal:demo",
       "description": "a record type with many field",
       "record": {
-        "required": ["integer"],
-        "nullable": ["nullableString"],
+        "type": "object",
+        "required": [
+          "integer"
+        ],
+        "nullable": [
+          "nullableString"
+        ],
         "properties": {
-          "null": {
-            "type": "null",
-            "description": "field of type null"
-          },
           "boolean": {
             "type": "boolean",
             "description": "field of type boolean"
@@ -57,7 +57,7 @@
           },
           "object": {
             "type": "object",
-            "description": "field of type null",
+            "description": "field of type object",
             "properties": {
               "a": {
                 "type": "integer"
@@ -70,7 +70,7 @@
           "ref": {
             "type": "ref",
             "description": "field of type ref",
-            "ref": "example.lexicon.record#demoToken"
+            "ref": "example.lexicon.record#demoObject"
           },
           "union": {
             "type": "union",
@@ -93,7 +93,12 @@
           },
           "enumInteger": {
             "type": "integer",
-            "enum": [4, 9, 16, 25]
+            "enum": [
+              4,
+              9,
+              16,
+              25
+            ]
           },
           "rangeInteger": {
             "type": "integer",
@@ -112,11 +117,19 @@
           },
           "enumString": {
             "type": "string",
-            "enum": ["fish", "tree", "rock"]
+            "enum": [
+              "fish",
+              "tree",
+              "rock"
+            ]
           },
           "knownString": {
             "type": "string",
-            "knownValues": ["blue", "green", "red"]
+            "knownValues": [
+              "blue",
+              "green",
+              "red"
+            ]
           },
           "sizeBytes": {
             "type": "bytes",
@@ -137,11 +150,15 @@
           },
           "acceptBlob": {
             "type": "blob",
-            "accept": ["image/*"]
+            "accept": [
+              "image/*"
+            ]
           },
           "closedUnion": {
             "type": "union",
-            "refs": ["example.lexicon.record#demoObject"],
+            "refs": [
+              "example.lexicon.record#demoObject"
+            ],
             "closed": true
           }
         }

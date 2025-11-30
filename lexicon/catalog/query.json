@@ -1,8 +1,7 @@
 {
   "lexicon": 1,
   "id": "example.lexicon.query",
-  "revision": 1,
-  "description": "exersizes many lexicon features for the query type",
+  "description": "exercises many lexicon features for the query type",
   "defs": {
     "main": {
       "type": "query",
@@ -10,7 +9,9 @@
       "parameters": {
         "type": "params",
         "description": "a params type",
-        "required": ["string"],
+        "required": [
+          "stringField"
+        ],
         "properties": {
           "boolean": {
             "type": "boolean",
@@ -20,7 +21,7 @@
             "type": "integer",
             "description": "field of type integer"
           },
-          "string": {
+          "stringField": {
             "type": "string",
             "description": "field of type string"
           },
@@ -29,14 +30,12 @@
             "format": "handle",
             "description": "field of type string, format handle"
           },
-          "unknown": {
-            "type": "unknown",
-            "description": "field of type unknown"
-          },
           "array": {
             "type": "array",
             "description": "field of type array",
-            "items": { "type": "integer" }
+            "items": {
+              "type": "integer"
+            }
           }
         }
       },
