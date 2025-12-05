@@ -13,7 +13,7 @@ def height(key):
     h = hashlib.sha256(key).hexdigest()
     i = 0
     for c in h:
-        if c > '4':
+        if c >= '4':
             return i*2
         if c != '0':
             return i*2+1
