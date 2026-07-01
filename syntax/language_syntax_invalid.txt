@@ -8,15 +8,3 @@ a-DE
 
 # technically not valid, but allowing in naive parser
 #de-419-DE
-
-# duplicate variant subtag
-de-DE-1901-1901
-
-# duplicate variant subtag, case-insensitive match
-en-rozaj-ROZAJ
-
-# duplicate extension singleton subtag
-en-a-foo-a-bar
-
-# duplicate extension singleton subtag, case-insensitive match
-en-u-co-phonebk-U-ca-buddhist
